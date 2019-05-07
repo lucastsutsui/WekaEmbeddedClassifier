@@ -1,4 +1,5 @@
 Implementations for the tool to convert WEKA trained classifiers into code to run in low-cost embedded systems.
+
 JavaObj library must be installed <https://pypi.org/project/javaobj-py3/>
 
 ### Usage: 
@@ -9,8 +10,9 @@ JavaObj library must be installed <https://pypi.org/project/javaobj-py3/>
     python svmLinear.py <modelFile> <destinationFile> [-opts]
 ```
     
-<modelFile> is the WEKA trained classification model
-<destinationFile> is the file that will be produced containing the classifier
+"modelFile" is the WEKA trained classification model
+
+"destinationFile" is the file that will be produced containing the classifier
 
 ```
 Options:	
