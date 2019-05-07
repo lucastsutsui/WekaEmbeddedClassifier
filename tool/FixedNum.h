@@ -2,14 +2,7 @@
 #ifndef FIXED_NUM_H
 #define FIXED_NUM_H
 
-//#define TOTAL_BITS 32
-//#define SIGNED
-//#define FIXED_FBITS 14
 #define MASK ((1 << FIXED_FBITS)-1)
-
-//    [1, 2, 3],             # 8 bits
-//    [1, 2, 4, 6],          # 16 bits
-//    [1, 2, 4, 8, 10, 14]   # 32 bits
 
 #ifdef SIGNED
 #if TOTAL_BITS==8
@@ -135,9 +128,6 @@ FixedNum fxp_pow2(const FixedNum x){
     i = (k >> FIXED_FBITS);
     f = (k & MASK);
   }
-	//Serial.println(k&MASK);
-	//Serial.println(i);
-	//Serial.println(f);
 
 #ifdef SIGNED
   if (i + FIXED_FBITS >= TOTAL_BITS-1)
@@ -150,7 +140,7 @@ FixedNum fxp_pow2(const FixedNum x){
   FixedNum ans = ((TYPE)0x00000400);
   if (f > 0)
     ans = fxp_sum(fxp_mul(fxp_sum(fxp_mul(0x0000015f, f), 0x00000299), f), 0x00000404);
-//Serial.println(ans);
+
   if (x > 0)
     ans <<= i;
   else
