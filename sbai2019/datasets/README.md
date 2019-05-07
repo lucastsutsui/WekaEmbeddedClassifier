@@ -24,15 +24,15 @@ This folder contains the datasets used in our experiments:
 
 * Asfault-roads
 
-@article{souza2018asfault,
-  title={Asfault: A low-cost system to evaluate pavement conditions in real-time using smartphones and machine learning},
-  author={Souza, Vinicius M. A. and Giusti, Rafael and Batista, Ant{\^o}nio J. L.},
-  journal={Pervasive and Mobile Computing},
-  volume={51},
-  pages={121--137},
-  year={2018},
-  publisher={Elsevier}
-}
+	@article{souza2018asfault,
+		title={Asfault: A low-cost system to evaluate pavement conditions in real-time using smartphones and machine learning},
+		author={Souza, Vinicius M. A. and Giusti, Rafael and Batista, Ant{\^o}nio J. L.},
+		journal={Pervasive and Mobile Computing},
+		volume={51},
+		pages={121--137},
+		year={2018},
+		publisher={Elsevier}
+	}
 
 * GasSensorArray
 
