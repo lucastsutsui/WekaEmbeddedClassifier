@@ -1,2 +1,2 @@
-# WekaEmbeddedClassifier
-A tool to convert WEKA trained classifiers into code to run in low-cost embedded systems
+# Paper SBAI 2019
+Supplementary material for the SBAI (Simpósio Brasileiro de Automação Inteligente - Brazilian Symposium on Intelligent Automation) 2019 paper
